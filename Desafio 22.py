@@ -1,6 +1,6 @@
-nome = str(input('Nome completo: '))
-print ('Nome com todas letras maiúsculas: {}'.format(nome.upper()))
-print ('Nome com todas letras minúsculas: {}'.format(nome.lower()))
-print ('Seu nome tem {} letras.'.format(len(nome.replace(' ', ''))))
-pnome = nome.split()
-print ('{} possui {} letras.'.format(pnome[0], len(pnome[0])))
+nome = str(input('Qual é seu nome completo? '))
+print ('Seu nome com todas letras maiúsculas é: {}'.format(nome.upper()))
+print ('Seu nome com todas letras minúsculas é: {}'.format(nome.lower()))
+print ('Seu nome completo tem um total de {} letras'.format(len(nome.replace(' ', ''))))
+pnome = nome.split()[0]
+print ('Seu primeiro nome tem {} letras.'.format(len(pnome)))
