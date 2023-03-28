@@ -1,0 +1,6 @@
+nome = str(input('Nome completo: '))
+print ('Nome com todas letras maiúsculas: {}'.format(nome.upper()))
+print ('Nome com todas letras minúsculas: {}'.format(nome.lower()))
+print ('Seu nome tem {} letras.'.format(len(nome.replace(' ', ''))))
+pnome = nome.split()
+print ('{} possui {} letras.'.format(pnome[0], len(pnome[0])))
